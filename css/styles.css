@@ -1,0 +1,156 @@
+body {
+  font-family: 'Spartan', sans-serif;
+  font-size: 15px;
+  padding: 7%;
+  background: url("../images/bg-pattern-top-desktop.svg") top left no-repeat, url("../images/bg-pattern-bottom-desktop.svg") bottom right no-repeat;
+}
+
+h1, p {
+  font-weight: 700;
+
+}
+
+/* Heading Section */
+
+.title {
+  font-weight: 700;
+  width: 65%;
+  color: #502050;
+  color: hsl(300, 43%, 22%);
+}
+
+
+.description {
+  color: #937B92;
+  color: hsl(303, 10%, 53%);
+  width: 90%;
+  line-height: 1.75;
+  font-weight: 500;
+}
+
+/*Ratings Section */
+.stars .star-img {
+  width: 17px;
+  height: 17px;
+  margin-right: 4px;
+  display: flex;
+  align-items: center;
+}
+
+.rating {
+  background-color: #F7F2F7;
+  background-color: hsl(300, 24%, 96%);
+  width: 75%;
+  border-radius: 8px;
+  font-weight: 700;
+  padding: 5px 15px;
+  margin: 15px;
+}
+
+.two {
+  position: relative;
+  left: 50px;
+}
+
+.three {
+  position: relative;
+  left: 100px;
+}
+
+.text {
+  color: #502050;
+  color: hsl(300, 43%, 22%);
+  margin: 0;
+  padding: 0.6250rem;
+}
+
+/* Testimonials Section */
+#testimonials {
+  padding: 5% 0;
+}
+
+img {
+  height: 50px;
+  width: 50px;
+  border-radius: 50%;
+  margin: 0 30px 0 0;
+  float: left;
+}
+
+.testimonials {
+  background-color: #502050;
+  background-color: hsl(300, 43%, 22%);
+  padding: 8%;
+  border-radius: 8px;
+}
+
+.irene {
+  position: relative;
+  top: 20px;
+}
+
+.anne {
+  position: relative;
+  top: 40px;
+}
+
+.name, .speech {
+  color: #FFFFFF;
+  color: hsl(0, 0%, 100%);
+}
+
+.name {
+  margin: 0;
+}
+
+.speech {
+  margin-top: 7%;
+  font-weight: 500;
+  line-height: 1.75;
+  clear: left;
+}
+
+.verified {
+  font-weight: 400;
+  color: #EE68A4;
+  color: hsl(333, 80%, 67%);
+}
+
+/* Footer Section */
+
+.attribution {
+  font-size: 11px;
+  text-align: center;
+}
+
+.attribution a {
+  color: #3E52A3;
+  color: hsl(228, 45%, 44%);
+}
+
+/* Mobile Layout */
+@media (max-width: 768px) {
+  body {
+    background: url("../images/bg-pattern-top-mobile.svg") top left no-repeat, url("../images/bg-pattern-bottom-mobile.svg") bottom right no-repeat;
+  }
+
+  #top {
+    text-align: center;
+  }
+
+  .title {
+    margin: 0 auto 7% auto;
+  }
+
+  .rating {
+    position: static;
+    width: auto;
+    margin: 15px auto;
+  }
+
+  .stars {
+    display: flex;
+    justify-content: center;
+    align-self: flex-start;
+  }
+}
