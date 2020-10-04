@@ -139,7 +139,12 @@ img {
   }
 
   .title {
-    margin: 0 auto 7% auto;
+    margin: 7% auto;
+    width: auto;
+  }
+
+  .description {
+    width: auto;
   }
 
   .rating {
